@@ -1,0 +1,51 @@
+﻿<Page x:Class="TO_DO_LIST_EVENT_DRIVEN.Pages.TaskPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:TO_DO_LIST_EVENT_DRIVEN.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TaskPage">
+
+    <Grid Background="#FFFFFF">
+        <StackPanel Margin="20">
+
+            <TextBlock Text="Add New Task" FontFamily="League Spartan" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <!-- Task Name -->
+            <TextBlock Text="Task Name" FontSize="14"/>
+            <TextBox Name="taskNameTextBox" Margin="0,5,0,15"/>
+
+            <!-- Priority Selection -->
+            <TextBlock Text="Set Priority:" FontSize="14"/>
+            <ComboBox Name="priorityComboBox" Margin="0,5,0,15" Height="30">
+                <ComboBoxItem Content="Critical"/>
+                <ComboBoxItem Content="High Priority"/>
+                <ComboBoxItem Content="Neutral"/>
+                <ComboBoxItem Content="Low Priority"/>
+            </ComboBox>
+
+            <!-- Category Selection -->
+            <TextBlock Text="Categorize Task:" FontSize="14"/>
+            <ComboBox Name="categoryComboBox" Margin="0,5,0,15" Height="30">
+                <ComboBoxItem Content="Work"/>
+                <ComboBoxItem Content="Personal"/>
+                <ComboBoxItem Content="Errands"/>
+            </ComboBox>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                <Button Content="Add Task" Width="100" Click="AddTask_Click"/>
+                <Button Content="Load Tasks" Width="100" Margin="10,0,0,0" Click="LoadTasks_Click"/>
+            </StackPanel>
+
+            <ListBox Name="taskListBox" Margin="0,20,0,0" Height="200" 
+         ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+
+
+
+
+            <Button Content="Mark as Completed" Width="200" HorizontalAlignment="Center" Margin="0,10,0,0" Click="CompleteTask_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
