@@ -8,12 +8,12 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProfilePage">
 
-   <Grid Background="#F5F5F5">
+    <Grid Background="#F5F5F5">
         <StackPanel Margin="20">
             <TextBlock Text="User Profile" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
-            
+
             <!-- Persona Image -->
-            <Image Source="/images/schoolgirl.jpg" Height="100" Width="100" Margin="0,0,0,20"/>
+            <Image Source="/images/schoolgirl.jpg" Height="189" Width="181" Margin="0,0,0,20"/>
 
             <TextBlock Text="Name: Dianne Cruz" FontSize="14" FontFamily="Ebrima"/>
             <TextBlock Text="Role: Freelance Content Creator" FontSize="14"/>
