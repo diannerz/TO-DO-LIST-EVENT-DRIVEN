@@ -1,0 +1,25 @@
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\bin\Debug\TO-DO LIST EVENT DRIVEN.exe.config
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\bin\Debug\TO-DO LIST EVENT DRIVEN.exe
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\bin\Debug\TO-DO LIST EVENT DRIVEN.pdb
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN.csproj.AssemblyReference.cache
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\MainWindow.baml
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\CategoryWindow.baml
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\SummaryPage.baml
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\MainWindow.g.cs
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\CategoryWindow.g.cs
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\ProfilePage.g.cs
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\SummaryPage.g.cs
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\TaskPage.g.cs
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\App.g.cs
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN_MarkupCompile.cache
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN_MarkupCompile.lref
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\LoginPage.baml
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\ProfilePage.baml
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\Pages\TaskPage.baml
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN.g.resources
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO_DO_LIST_EVENT_DRIVEN.Properties.Resources.resources
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN.csproj.GenerateResource.cache
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN.csproj.CoreCompileInputs.cache
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN.exe
+C:\Users\LEO\source\repos\TO-DO-LIST-EVENT-DRIVEN\TO-DO LIST EVENT DRIVEN\obj\Debug\TO-DO LIST EVENT DRIVEN.pdb

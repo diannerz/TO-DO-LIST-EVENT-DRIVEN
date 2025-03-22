@@ -1,0 +1,8 @@
+﻿<Application x:Class="TO_DO_LIST_EVENT_DRIVEN.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+    </Application.Resources>
+</Application>

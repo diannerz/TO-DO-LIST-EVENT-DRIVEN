@@ -1,0 +1,30 @@
+﻿<Page x:Class="TO_DO_LIST_EVENT_DRIVEN.Pages.ProfilePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TO_DO_LIST_EVENT_DRIVEN.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" Width="1000"
+      Title="ProfilePage">
+
+    <Grid Background="#FFF8F4E1">
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0" Width="980" Height="595">
+            <TextBlock Text="User Profile" FontSize="24" FontWeight="Bold" Margin="0,0,0,10" Foreground="#FF543310"/>
+            <Image Source="/images/schoolgirl.jpg" Height="189" Width="180" Margin="-160,0,0,0"/>
+
+            <!-- Persona Image -->
+
+            <TextBlock Text="Name: Dianne Cruz" FontSize="14" FontFamily="Ebrima" Foreground="#FF543310"/>
+            <TextBlock Text="Role: Freelance Content Creator" FontSize="14" Foreground="#FF543310"/>
+            <TextBlock Text="Goal: Balance creativity and deadlines while managing multiple projects" FontSize="14" Foreground="#FF543310"/>
+
+            <TextBlock Text="Completed Tasks:" FontSize="16" Margin="0,20,0,0" Foreground="#FF543310"/>
+            <ProgressBar Name="progressBarTasks" Height="20" Value="0" Maximum="100" Foreground="#FF543310" Width="788" Margin="-190,5,0,0">
+                <ProgressBar.BorderBrush>
+                    <ImageBrush/>
+                </ProgressBar.BorderBrush>
+            </ProgressBar>
+        </StackPanel>
+    </Grid>
+</Page>
