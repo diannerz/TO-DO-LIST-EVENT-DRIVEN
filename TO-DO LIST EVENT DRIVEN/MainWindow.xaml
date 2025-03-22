@@ -1,32 +1,43 @@
-﻿<Window x:Class="TO_DO_LIST_EVENT_DRIVEN.MainWindow"
+<Window x:Class="TO_DO_LIST_EVENT_DRIVEN.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TO_DO_LIST_EVENT_DRIVEN"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <DockPanel LastChildFill="True">
+        Title="MainWindow" Height="640" Width="1000"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" Foreground="#FFF8F4E1">
+
+    <DockPanel Background="#FFF8F4E1" LastChildFill="True">
         <!-- Sidebar Navigation -->
-        <StackPanel DockPanel.Dock="Left" Width="100" Background="#FF7B6853">
-            <Button Content="" Height="100" Click="Tasks_Click" FontFamily="Bahnschrift" Width="92" >
+        <StackPanel DockPanel.Dock="Left" Width="100" Background="#AF8F6F"
+                    Name="SidebarPanel" Visibility="Collapsed">
+
+            <Button Content="" Height="69" Click="Tasks_Click" Width="72" FontWeight="Bold">
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
                 <Button.Background>
-                    <ImageBrush ImageSource="/taskicon-removebg-preview.png"/>
+                    <ImageBrush ImageSource="/images/Golfer_s_checklist_linear_icon-removebg-preview.png" Stretch="UniformToFill" />
                 </Button.Background>
             </Button>
-            <Button Content="" Height="109" Click="Summary_Click" FontFamily="Bahnschrift" Width="94" >
+            <Button Content="" Height="64" Click="Summary_Click" Width="62">
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
                 <Button.Background>
                     <ImageBrush ImageSource="/summaryicon-removebg-preview.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="" Height="84"  Click="Profile_Click" FontFamily="Bahnschrift" Width="80" >
+            <Button Content="" Height="61" Click="Profile_Click" Width="62">
+                <Button.BorderBrush>
+                    <ImageBrush Stretch="UniformToFill" ImageSource="/images/Business_Men_Vector_PNG_Images__Vector_Business_Men_Icon__Business_Icons__Avatar__Bussiness_PNG_Image_For_Free_Download-removebg-preview.png"/>
+                </Button.BorderBrush>
                 <Button.Background>
-                    <ImageBrush ImageSource="/profile.png"/>
+                    <ImageBrush ImageSource="/images/Business_Men_Vector_PNG_Images__Vector_Business_Men_Icon__Business_Icons__Avatar__Bussiness_PNG_Image_For_Free_Download-removebg-preview.png" />
+
                 </Button.Background>
             </Button>
         </StackPanel>
 
         <!-- Main Content Area -->
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Navigated="MainFrame_Navigated" Background="#FFF8F4E1" />
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Background="#FFF8F4E1"/>
     </DockPanel>
 </Window>
